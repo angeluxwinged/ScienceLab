@@ -1,0 +1,375 @@
+/*Fuesntes importadas*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Patrick Hand', cursive;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	margin-top: 30px;
+	position: fixed;
+	padding: 40px;
+	z-index: 1;
+}
+
+/*Menu*/
+.logo img{
+	width: 90px;
+	cursor: pointer;
+}
+
+.logo h1{
+	font-size: 40px;
+	cursor: pointer;
+	color: #CC0000;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.logo{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.containerMenu{
+	max-width: 1200px;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.containerMenu button{
+	background-color: transparent;
+	border: none;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+}
+
+.menu #botonMenu{
+	display: none;
+}
+
+.menu ul{
+	display: flex;
+}
+
+.menu ul li{
+	list-style: none;
+	margin-left: 36px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.administracion{
+	position: absolute;
+	top: -10px; left: 1220px;
+	color: #fff;
+}
+
+/*Cover general*/
+.containerCover{
+	width: 100%;
+	height: 770px;
+	background-image: url(../images/fondo2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #8B65C6;
+  background-attachment: fixed;
+	background-size: cover;
+	padding: 40px;
+}
+
+.cover{
+	max-width: 1200px;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*Index*/
+.containerCover .text{
+	max-width: 550px;
+}
+
+.containerCover .text h1{
+	font-size: 38px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.containerCover .text p{
+	font-size: 24px;
+	margin-top: 40px;
+	color: #fff;
+}
+
+.containerCover .text input{
+	padding: 14px 25px;
+	border: none;
+	font-size: 22px;
+	border-radius: 50px;
+	margin-top: 40px;
+	background: linear-gradient(to right, #BF0000, #A70000);
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 1px 1px 30px -12px blueviolet;
+	transition: all 300ms;
+}
+
+.containerCover .imagenLabo img{
+	width: 600px;
+}
+
+/*Agendar citas*/
+.botonCambiar{
+	font-size: 12px;
+	background: linear-gradient(to right, #BF0000, #A70000);
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	border-radius: 50px;
+	padding: 4px 25px;
+	text-decoration: none;
+}
+
+.containerC{
+	margin-left: 350px;
+	text-align: center;
+}
+
+.cita{
+  margin-top: 80px;
+  width: 520px;
+  padding: 10px;
+  border: 2px solid #fff;
+}
+
+.cita .inputInfo{
+  width: 100%;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.cita .radioInfo{
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+.cita input{
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.cita h1{
+	margin-bottom: 15px;
+	color: #fff;
+	text-align: center;
+}
+
+.cita .enviarCita{
+	text-align: center;
+}
+
+.enviarCita input{
+	background: linear-gradient(to right, #BF0000, #A70000);
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	width: 100px;
+	border-radius: 50px;
+}
+
+/*Consultar resultados*/
+.consulta{
+	text-align: center;
+	border: 2px solid #fff;
+	color: #fff;
+	width: 560px;
+	padding: 8px;
+}
+
+.consulta .consultaInfo{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.consultaInfo input{
+	text-align: center;
+	width: 80px;
+}
+
+.buscarConsultaInfo input{
+	background: linear-gradient(to right, #BF0000, #A70000);
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	border-radius: 50px;
+	width: 80px;
+	height: 27px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+/*Estadisticas*/
+.estadisticasInfo{
+	text-align: center;
+	
+}
+
+.estadisticasInfo h2{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.siguienteBoton img{
+	width: 70px;
+	cursor: pointer;
+	margin-top: 450px;
+}
+
+.siguienteBoton button{
+	background-color: transparent;
+	border: none;
+}
+
+/*Administracion*/
+.botonCambiarAdmin{
+	font-size: 16px;
+	background: linear-gradient(to right, #BF0000, #A70000);
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	padding: 4px 25px;
+	text-decoration: none;
+}
+
+
+/*Selected*/
+#selected{
+	background: linear-gradient(to right, #BF0000, #A70000);
+	padding: 10px 40px;
+	border-radius: 50px;
+}
+
+/*Parte responsiva*/
+@media screen and (max-width: 1400px){
+	.containerCover{
+		background-position: 50%;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	header{
+		padding: 40px;
+	}
+	
+}
+
+@media screen and (max-width: 840px){
+	.containerCover .imagenLabo img{
+		width: 380px;
+	}
+
+	.cover{
+		flex-wrap: wrap;
+	}
+
+	.containerCover{
+		height: 1300px;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	.menu nav{
+		position: fixed;
+		top: 0;
+		right: -250px;
+		background: white;
+		width: 230px;
+		height: 100vh;
+		padding: 40px;
+		z-index: 1;
+		transition: all 300ms;
+		border-radius: 30px;
+	}
+
+	.menu ul{
+		margin-top: 5px;
+		flex-direction: column;
+	}
+
+	.menu ul li{
+		margin-top: 20px;
+		margin-left: 0;
+	}
+
+	.menu ul li a{
+		color: black;
+		font-size: 24px;
+	}
+
+	#selected{
+		background: none;
+		padding: 0px;
+		border-radius: none;
+		color: #CC0000;
+	}
+
+	#backMenu{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.5);
+		display: none;
+	}
+
+	.menu #botonMenu{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		height: 50px;
+		background: rgba(255, 255, 255, 0.1);
+		font-size: 24px;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: all 300ms;
+	}
+
+	.siguienteBoton img{
+	margin-top: 0;
+	margin-left: 350px;
+}
+
+
+}
